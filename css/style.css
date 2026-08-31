@@ -12,6 +12,12 @@ body {
     background: #f8f9fa;
 }
 
+/* Serif fonts for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -105,7 +111,7 @@ main {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #1a1a2e;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #2c3e73;
     padding-bottom: 0.5rem;
 }
 
@@ -124,7 +130,7 @@ main {
 /* Read More Links */
 .read-more {
     display: inline-block;
-    color: #667eea;
+    color: #2c3e73;
     font-weight: 600;
     text-decoration: none;
     margin-top: 0.5rem;
@@ -132,7 +138,7 @@ main {
 }
 
 .read-more:hover {
-    color: #5568d3;
+    color: #1a2647;
 }
 
 .read-more::after {
@@ -168,7 +174,7 @@ main {
 
 .team-mini .role {
     font-size: 0.85rem;
-    color: #667eea;
+    color: #2c3e73;
     margin-bottom: 0.5rem;
 }
 
@@ -180,7 +186,7 @@ main {
 
 /* Featured Items */
 .featured-item {
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #2c3e73;
     padding-left: 1rem;
 }
 
@@ -198,14 +204,14 @@ main {
 .featured-item .outlet,
 .featured-item .venue {
     font-style: italic;
-    color: #667eea;
+    color: #2c3e73;
     margin-bottom: 0.5rem;
 }
 
 /* Event Module */
 .event-date {
     display: inline-block;
-    background: #667eea;
+    background: #2c3e73;
     color: #fff;
     padding: 0.25rem 0.75rem;
     border-radius: 4px;
@@ -229,7 +235,7 @@ main {
 /* Buttons */
 .btn {
     display: inline-block;
-    background: #667eea;
+    background: #2c3e73;
     color: #fff;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
@@ -239,17 +245,17 @@ main {
 }
 
 .btn:hover {
-    background: #5568d3;
+    background: #1a2647;
 }
 
 .btn-outline {
     background: transparent;
-    border: 2px solid #667eea;
-    color: #667eea;
+    border: 2px solid #2c3e73;
+    color: #2c3e73;
 }
 
 .btn-outline:hover {
-    background: #667eea;
+    background: #2c3e73;
     color: #fff;
 }
 
@@ -324,7 +330,7 @@ section li {
 }
 
 .team-member .role {
-    color: #667eea;
+    color: #2c3e73;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -353,7 +359,7 @@ section li {
 
 .publication .venue {
     font-style: italic;
-    color: #667eea;
+    color: #2c3e73;
     margin-bottom: 0.5rem;
 }
 
