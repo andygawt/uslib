@@ -157,6 +157,15 @@ main {
     text-align: center;
 }
 
+.team-mini a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.team-mini a:hover h4 {
+    color: #2c3e73;
+}
+
 .team-mini img {
     width: 100px;
     height: 100px;
@@ -164,6 +173,11 @@ main {
     object-fit: cover;
     margin-bottom: 0.75rem;
     border: 3px solid #f0f0f0;
+    transition: border-color 0.3s ease;
+}
+
+.team-mini a:hover img {
+    border-color: #2c3e73;
 }
 
 .team-mini h4 {
