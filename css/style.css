@@ -48,6 +48,16 @@ header .container {
     margin: 0;
 }
 
+.site-title a {
+    color: #1a1a2e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-title a:hover {
+    color: #2c3e73;
+}
+
 nav ul {
     list-style: none;
     display: flex;
