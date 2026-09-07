@@ -1,0 +1,56 @@
+[
+  {
+    "date": "2026",
+    "type": "publication",
+    "venue": "Presidential Studies Quarterly",
+    "title": "Presidential Extra-Territorialization: How Presidents Go Abroad to Bypass Domestic Constraint",
+    "url": "https://doi.org/10.1111/psq.70043",
+    "people": ["Andrew Gawthorpe"],
+    "description": "Examines how U.S. presidents use foreign policy venues to evade domestic constitutional constraints on executive power."
+  },
+  {
+    "date": "2026",
+    "type": "publication",
+    "venue": "In US Cultural Diplomacy after the Cold War (Manchester University Press)",
+    "title": "The President as Cultural Diplomat: Donald Trump, the Presidency, and American Cultural Diplomacy",
+    "url": "https://manchesteruniversitypress.co.uk/9781526188397/",
+    "people": ["Andrew Gawthorpe"],
+    "description": "Analysis of how presidential conduct shapes American cultural diplomacy and soft power."
+  },
+  {
+    "date": "2025",
+    "type": "publication",
+    "venue": "International Affairs, Vol. 101, No. 1",
+    "title": "Civilizational Wilsonianism from Woodrow Wilson to Donald Trump",
+    "url": "https://academic.oup.com/ia/article/101/1/177/7942165",
+    "people": ["Andrew Gawthorpe"],
+    "description": "Traces the evolution of Wilsonian ideals in U.S. foreign policy, examining how civilizational thinking has shaped American internationalism."
+  },
+  {
+    "date": "2025",
+    "type": "publication",
+    "venue": "International Affairs",
+    "title": "Competing and Complementary Regions in U.S. Foreign Policy",
+    "url": "https://doi.org/10.1093/ia/iiaf106",
+    "people": ["Andrew Gawthorpe", "Catherine Wood"],
+    "description": "Co-authored analysis of how regional frameworks compete and complement each other in American foreign policy."
+  },
+  {
+    "date": "2023",
+    "type": "publication",
+    "venue": "Journal of Strategic Studies",
+    "title": "Counterinsurgency Comes Home",
+    "url": "https://www.tandfonline.com/doi/abs/10.1080/01402390.2022.2146095",
+    "people": ["Andrew Gawthorpe"],
+    "description": "Examines how counterinsurgency doctrine has influenced domestic policing and political discourse in the United States."
+  },
+  {
+    "date": "2022",
+    "type": "publication",
+    "venue": "The Washington Quarterly",
+    "title": "Taking US Foreign Policy for the Middle Class Seriously",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/0163660X.2022.2059143",
+    "people": ["Andrew Gawthorpe"],
+    "description": "Analysis of how domestic economic concerns shape American foreign policy priorities."
+  }
+]

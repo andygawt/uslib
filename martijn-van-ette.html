@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martijn van Ette - U.S. Foreign Policy and Liberalism (USLIB)</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/outputs.js"></script>
 </head>
 <body>
     <header>
@@ -38,6 +39,9 @@
                     </div>
                 </div>
 
+                <h3 style="margin-top: 3rem;">Selected Publications</h3>
+                <div id="person-outputs"></div>
+
                 <div style="margin-top: 3rem;">
                     <a href="team.html" class="btn-outline">← Back to Team</a>
                 </div>
@@ -51,5 +55,11 @@
             <p>Funded by the Dutch Research Council (NWO)</p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            outputManager.renderPersonOutputs('Martijn van Ette', 'person-outputs');
+        });
+    </script>
 </body>
 </html>
