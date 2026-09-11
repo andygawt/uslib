@@ -346,6 +346,11 @@ section li {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.team-member a:hover img {
+    opacity: 0.8;
 }
 
 .team-member h4 {
