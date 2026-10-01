@@ -52,5 +52,50 @@
     "url": "https://www.tandfonline.com/doi/abs/10.1080/01402390.2022.2146095",
     "people": ["Andrew Gawthorpe"],
     "description": "Argues against applying counterinsurgency theory and civil war concepts to challenges facing American democracy, warning that such frameworks risk normalizing state violence, misdiagnosing political opposition as insurgency, and undermining democratic principles in the name of defending them."
+  },
+  {
+    "date": "2026-09-23",
+    "type": "media",
+    "outlet": "France 24",
+    "title": "War in Ukraine: When the CIA Enters the Diplomatic Ballet",
+    "url": "https://www.france24.com/fr/europe/20260923-guerre-en-ukraine-quand-la-cia-entre-diplomatique-ratcliffe-zelensky-poutine-espion",
+    "people": [],
+    "description": "Analysis of the CIA's role in diplomatic efforts regarding the Ukraine conflict."
+  },
+  {
+    "date": "2026-09-19",
+    "type": "media",
+    "outlet": "NU.nl",
+    "title": "Trump's Press Exclusion Strategy",
+    "url": "https://www.nu.nl/verkiezingen-vs/6410325/wankele-trump-probeert-met-het-uitsluiten-van-de-pers-een-toon-te-zetten.html",
+    "people": [],
+    "description": "Discussion of how Trump uses press exclusion to set the tone in politics."
+  },
+  {
+    "date": "2026-09-04",
+    "type": "media",
+    "outlet": "TIME",
+    "title": "Falklands Tensions Rise Under Milei and Trump",
+    "url": "https://time.com/article/2026/09/04/falkland-islands-britain-argentina-sovereignty-dispute-Milei-threats-trump/",
+    "people": [],
+    "description": "Analysis of why the Falkland Islands remain a pressure point for the U.K. and how recent actions by Milei and Trump are stoking new tensions."
+  },
+  {
+    "date": "2026-08-25",
+    "type": "media",
+    "outlet": "France 24",
+    "title": "Canada Defends French Language Amid Trump Trade War",
+    "url": "https://www.france24.com/fr/am%C3%A9riques/20260825-guerre-commerciale-face-%C3%A0-trump-le-canada-d%C3%A9fend-la-langue-fran%C3%A7aise-et-sa-souverainet%C3%A9",
+    "people": [],
+    "description": "How Canada is defending linguistic sovereignty in the face of U.S. trade pressure."
+  },
+  {
+    "date": "2026-08-24",
+    "type": "media",
+    "outlet": "NBC News",
+    "title": "Bessent Threatens New Iran Secondary Sanctions",
+    "url": "https://www.nbcnews.com/business/economy/bessent-iran-sanctions-d-day-rcna594103",
+    "people": [],
+    "description": "Coverage of new secondary sanctions threats against Iran and international cooperation efforts."
   }
 ]

@@ -75,24 +75,16 @@
                 <!-- Featured Publication -->
                 <div class="module module-half">
                     <h2>Featured Publication</h2>
-                    <div class="featured-item">
-                        <h3>Presidential Extra-Territorialization</h3>
-                        <p class="meta">Andrew Gawthorpe | 2026</p>
-                        <p class="venue">Presidential Studies Quarterly</p>
-                        <p>Examines how U.S. presidents use foreign policy venues to evade domestic constitutional constraints on executive power.</p>
-                        <a href="https://doi.org/10.1111/psq.70043" target="_blank" class="read-more">Read article</a>
+                    <div id="featured-publication" class="featured-item">
+                        <!-- Populated by JavaScript -->
                     </div>
                 </div>
 
                 <!-- Featured Media -->
                 <div class="module module-half">
                     <h2>Featured Media</h2>
-                    <div class="featured-item">
-                        <h3>Falklands Tensions Rise Under Milei and Trump</h3>
-                        <p class="meta">September 4, 2026</p>
-                        <p class="outlet">TIME</p>
-                        <p>Andrew Gawthorpe discusses why the Falkland Islands remain a pressure point for the U.K. and how recent actions by Milei and Trump are stoking new tensions.</p>
-                        <a href="https://time.com/article/2026/09/04/falkland-islands-britain-argentina-sovereignty-dispute-Milei-threats-trump/" target="_blank" class="read-more">Read article</a>
+                    <div id="featured-media" class="featured-item">
+                        <!-- Populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -106,5 +98,64 @@
             <p>Funded by the Dutch Research Council (NWO)</p>
         </div>
     </footer>
+
+    <script>
+        // Load outputs and randomly populate featured sections
+        async function loadFeaturedContent() {
+            try {
+                const response = await fetch('data/outputs.json');
+                const outputs = await response.json();
+
+                // Filter publications and media
+                const publications = outputs.filter(item => item.type === 'publication');
+                const media = outputs.filter(item => item.type === 'media');
+
+                // Randomly select one of each
+                const randomPub = publications[Math.floor(Math.random() * publications.length)];
+                const randomMedia = media[Math.floor(Math.random() * media.length)];
+
+                // Populate featured publication
+                const pubContainer = document.getElementById('featured-publication');
+                if (randomPub) {
+                    const year = randomPub.date.toString().substring(0, 4);
+                    const authors = randomPub.people && randomPub.people.length > 0
+                        ? randomPub.people.join(', ') + ' | '
+                        : '';
+
+                    pubContainer.innerHTML = `
+                        <h3>${randomPub.title}</h3>
+                        <p class="meta">${authors}${year}</p>
+                        <p class="venue">${randomPub.venue}</p>
+                        <p>${randomPub.description || ''}</p>
+                        <a href="${randomPub.url}" target="_blank" class="read-more">Read article</a>
+                    `;
+                }
+
+                // Populate featured media
+                const mediaContainer = document.getElementById('featured-media');
+                if (randomMedia) {
+                    const date = new Date(randomMedia.date);
+                    const dateStr = date.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+
+                    mediaContainer.innerHTML = `
+                        <h3>${randomMedia.title}</h3>
+                        <p class="meta">${dateStr}</p>
+                        <p class="outlet">${randomMedia.outlet}</p>
+                        <p>${randomMedia.description || ''}</p>
+                        <a href="${randomMedia.url}" target="_blank" class="read-more">Read article</a>
+                    `;
+                }
+            } catch (error) {
+                console.error('Error loading featured content:', error);
+            }
+        }
+
+        // Load content when page loads
+        document.addEventListener('DOMContentLoaded', loadFeaturedContent);
+    </script>
 </body>
 </html>
