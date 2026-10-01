@@ -52,5 +52,45 @@
     "url": "https://www.tandfonline.com/doi/abs/10.1080/01402390.2022.2146095",
     "people": ["Andrew Gawthorpe"],
     "description": "Argues against applying counterinsurgency theory and civil war concepts to challenges facing American democracy, warning that such frameworks risk normalizing state violence, misdiagnosing political opposition as insurgency, and undermining democratic principles in the name of defending them."
+  },
+  {
+    "date": "2026-09-23",
+    "type": "media",
+    "outlet": "France 24",
+    "title": "War in Ukraine: When the CIA Enters the Diplomatic Ballet",
+    "url": "https://www.france24.com/fr/europe/20260923-guerre-en-ukraine-quand-la-cia-entre-diplomatique-ratcliffe-zelensky-poutine-espion",
+    "people": ["Andrew Gawthorpe"]
+  },
+  {
+    "date": "2026-09-19",
+    "type": "media",
+    "outlet": "NU.nl",
+    "title": "Wankele Trump probeert met het uitsluiten van de pers een toon te zetten",
+    "url": "https://www.nu.nl/verkiezingen-vs/6410325/wankele-trump-probeert-met-het-uitsluiten-van-de-pers-een-toon-te-zetten.html",
+    "people": ["Andrew Gawthorpe"]
+  },
+  {
+    "date": "2026-09-04",
+    "type": "media",
+    "outlet": "TIME",
+    "title": "Why the Falklands Is a Pressure Point For the U.K.—and How Milei, Trump Are Stoking Tensions",
+    "url": "https://time.com/article/2026/09/04/falkland-islands-britain-argentina-sovereignty-dispute-Milei-threats-trump/",
+    "people": ["Andrew Gawthorpe"]
+  },
+  {
+    "date": "2026-08-25",
+    "type": "media",
+    "outlet": "France 24",
+    "title": "Guerre commerciale : face à Trump, le Canada défend la langue française et sa souveraineté",
+    "url": "https://www.france24.com/fr/am%C3%A9riques/20260825-guerre-commerciale-face-%C3%A0-trump-le-canada-d%C3%A9fend-la-langue-fran%C3%A7aise-et-sa-souverainet%C3%A9",
+    "people": ["Andrew Gawthorpe"]
+  },
+  {
+    "date": "2026-08-24",
+    "type": "media",
+    "outlet": "NBC News",
+    "title": "Bessent threatens new Iran secondary sanctions, says Trump is asking world leaders to cooperate",
+    "url": "https://www.nbcnews.com/business/economy/bessent-iran-sanctions-d-day-rcna594103",
+    "people": ["Andrew Gawthorpe"]
   }
 ]
